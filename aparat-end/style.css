@@ -1,0 +1,151 @@
+body {
+    background-color: #16171A;
+}
+@media (max-width:500px) {
+    .header-web {
+        width: 340px;
+        height: 54px;
+    }
+    .img-aparat {
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+    .div-user {
+        display: flex;
+        justify-content: end;
+    }
+    .div-user i {
+        color: white;
+        font-size: 15px;
+    }
+    .button-user {
+        background-color: transparent;
+        border: 1px solid #24252D;
+        padding: 10px
+        ;
+        border-radius: 20px;
+        position: relative;
+        bottom: 35px;
+        left: 10px;
+    }
+    .div-search {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .div-search i {
+        color: white;
+        position: relative;
+        bottom: 63px
+        ;
+        left: 80px;
+        font-size: 18px;
+    }
+    .div-grip {
+    display: flex;
+    justify-content: flex-end;
+    }
+    .img-nine {
+        width: 25px
+        ;
+        position: relative;
+        bottom: 84px;
+        left: 130px;
+    }
+    .div-button {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .button {
+        padding: 16px;  
+        background-color: transparent;
+        color: #9DA1B1;
+        border: none;
+        border-top: 2px solid #292A33;
+    }
+    .button-hover {
+        border-top: 2px solid #6F7285;
+    }
+    .div-div-div {
+        display: flex;
+        justify-content: center;
+    }
+    .div-div {
+        background-color: #212226;
+        width: 320px;
+        height: 230px;
+        border-radius: 20px;
+    }
+    .div-imgjuce {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .img-juce {
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+    .p-big {
+        color: #F5F5F9;
+        font-weight: bold;
+        font-size: 30px;
+        position: relative;
+        bottom: 75px;
+        right: 10px;
+    }
+    .p-small {
+        display: flex;
+        justify-content: center;
+    }
+    .small {
+        color: #F5F5F9;
+        position: relative;
+        bottom: 100px;
+    }
+    .button-div-div-div {
+        width: 140px;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        background: #FBFBFC;
+        color: #3C3039;
+        font-size: 15px;
+        font-weight: bold;
+        position: relative;
+        bottom: 100px;
+        right: 20px
+        ;
+
+    }
+    .p-all {
+        color: white;
+        font-weight: bold;
+        position: relative;
+        right: 15px;
+    }
+    .div-all {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .button-all {
+        width: 100px
+        ;
+        height: 40px;
+        border-radius: 10px;
+        font-size: 15px;
+        background-color: transparent;
+        border: 1px solid #292A33;
+        color: white;
+        position: relative;
+        bottom: 47px;
+    }
+    .div-aparat {
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+    }
+    .div-print {
+        display: flex;
+        justify-content: center;
+    }
+}
